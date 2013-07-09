@@ -1,0 +1,11 @@
+en:
+  errors:
+    messages:
+      carrierwave_processing_error: erro ao processar
+      carrierwave_integrity_error: não é de um tipo de arquivo permitido
+      carrierwave_download_error: não pode ser baixado
+      extension_white_list_error: "Você não tem permissão para enviar imagem %{extension}, Use somente: %{allowed_types}"
+      extension_black_list_error: "Você não tem permissão para enviar imagem %{extension}, Não use: %{prohibited_types}"
+      rmagick_processing_error: "Falha de manipular a imagem com rmagick, talvez não seja uma imagem. Erro Original: %{e}"
+      mime_types_processing_error: "Falha de manipular a imagem com MIME::Types, talvez não seja uma imagem. Original Error: %{e}"
+      mini_magick_processing_error: "Falha de manipular a imagem com MiniMagick, talvez não seja uma imagem. Original Error: %{e}"
